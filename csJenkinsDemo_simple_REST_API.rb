@@ -1,6 +1,10 @@
 require 'rubygems'
 require 'sinatra'
 
-get '/' do
-  'CareSource Jenkins Demo!!!!'
+get '/resource' do
+  'Listing resource.'
+end
+
+post '/resource' do
+  'Creating resource.'
 end
